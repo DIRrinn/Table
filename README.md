@@ -1,2 +1,2 @@
 # Cursive
-Really small task ncurses program
+Really small task curses program
