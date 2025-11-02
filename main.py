@@ -1,4 +1,5 @@
 import curses
+import open_win
 
 class Main(object):
     def __init__(self, stdscreen):
@@ -15,6 +16,7 @@ class Main(object):
         curses.curs_set(0)
 
         self.menu = MainList(self.screen)
+        ow = open_win.ControlWindow((0, 0), 1, 2)
 
 class MainList(object):
     def __init__(self, screen):
